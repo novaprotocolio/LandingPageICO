@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Whitepaper</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+  <!-- CSS
+	============================================ -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Icon Font CSS -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/pe-icon-7-stroke.css" />
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="css/plugins.css" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Modernizer JS -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+  <!-- Main Wrapper -->
+  <div id="main-wrapper">
+    <!-- Header Section Start -->
+    <div class="header-section header-sticky section">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Header Logo -->
+          <div class="header-logo col-lg-3 col-md-6 col-6">
+            <a href="index.html" class="logo">
+              <img src="img/logo.png" alt="logo" />
+            </a>
+          </div>
+
+          <!-- Header Menu -->
+          <div class="main-menu col-lg-9 col-12">
+            <nav id="menu">
+              <ul>
+                <li class="active">
+                  <div><a href="#">Problem</a></div>
+                </li>
+                <li><a href="./solution.html">Solution</a></li>
+                <li><a href="./whitepaper.html">Whitepaper</a></li>
+                <li><a href="./timeline.html">Timeline</a></li>
+                <li><a href="./team.html">Team</a></li>
+                <li><a href="./faq.html">Partner</a></li>
+              </ul>
+            </nav>
+            <div class="mobile-menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- Page Banner Section Start -->
+    <div class="page-banner-section section overlay-gradient overlay-opacity-80"
+      style="background-image: url(img/bg/blockchain-banner-01.jpg)">
+      <div class="container">
+        <div class="row">
+
+          <!-- Page Banner Content Start -->
+          <div class="page-banner-content text-center col">
+            <h1>Problems We Solve</h1>
+          </div><!-- Page Banner Content End -->
+
+        </div>
+      </div>
+    </div><!-- Page Banner Section End -->
+
+    <!-- Work Process Section Start PROBLEM-->
+    <div class="work-process-section section pt-50 pb-90" id="problem">
+      <div class="container">
+        <div class="row pt-50">
+          <div class="about-image-one col-md-6 col-lg-6 col-12 d-none d-md-block">
+            <img src="img/about/ad-dis-blockchain-01.png" alt="about">
+          </div>
+          <div class="about-content-one col-md-6 col-lg-6 col-12">
+            <h1 class="strong wow fadeInRight">Disadvantages of a centralised exchange</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <ul class="list-circle wow fadeInRight" data-wow-delay=".2s">
+              <li>Since centralized exchanges hold their users wallet, they are extremely vulnerable to hacks
+                and cyber attacks that could result in users losing their coin holdings (MTGox).</li>
+              <li>Users can be locked out of an exchange or could lose access to their wallets during a software
+                update as experienced during the cryptocurrency boom in 2017 (Kraken was down for 2 weeks in Jan
+                2018).</li>
+              <li>Some centralized exchanges can have opaque operating procedures and can suddenly be closed
+                (Bitsane) resulting in the loss of assets.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row pt-50">
+          <div class="about-content-one col-md-6 col-lg-6 col-12">
+            <h1 class="strong wow fadeInLeft">Advantages of decentralized exchange</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <ul class="list-circle wow fadeInLeft" data-wow-delay=".2s">
+              <li>Asset security: users hold their private keys and thus their assets.</li>
+              <li>With decentralization, transaction data is saved on the blockchain.</li>
+            </ul>
+          </div>
+          <div class="about-image-one col-md-6 col-lg-6 col-12 d-none d-md-block" style="background: #3d3c3e;">
+            <img src="img/about/hero-banner-2.png" alt="about">
+          </div>
+        </div>
+        <div class="row pt-50">
+          <div class="about-image-one col-md-6 col-lg-6 col-12 d-none d-md-block">
+            <img src="img/about/ad-dis-blockchain-01.png" alt="about">
+          </div>
+          <div class="about-content-one col-md-6 col-lg-6 col-12">
+            <h1 class="strong wow fadeInRight">Why some decentralized exchanges are not actually decentralized</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <ul class="list-circle wow fadeInRight" data-wow-delay=".2s">
+              <li>There are 4 important entities of an exchange:
+                <ul class="list-long-arrow">
+                  <li>Asset exchange.</li>
+                  <li>Capital deposit.</li>
+                  <li>Matching engine.</li>
+                  <li>Orderbook.</li>
+                </ul>
+              </li>
+              <li>
+                To build a fully decentralized exchange, these entities must be decentralized. However, it is
+                not trivial to decentralize these entities due to performance and architecture issues. Most
+                DEX only build asset exchange as a decentralized solution (IDEX, Kyber Network, 0x, etc) which can be
+                classified as a hybrid exchange.
+              </li>
+              <li>
+                Profit sharing problem between masternodes that validate exchange transactions. For some
+                decentralized exchanges, a few masternodes dominate transaction validation and hence also the
+                fees resulting in the loss of interest in other masternodes.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row pt-50">
+          <div class="about-content-one col-md-6 col-lg-6 col-12">
+            <h1 class="strong wow fadeInLeft">How does novalex built a full decentralized exchange?</h1>
+            <h5 class="wow fadeInUp"></h5>
+            <div class="wow fadeInUp">
+              <ul class="list-circle wow fadeInLeft" data-wow-delay=".2s">
+                <li>We create our own blockchain: NovaChain for matching engine, orderbook and smart contract for asset
+                  exchange.</li>
+                <li>We create a new consensus algorithm with new sharing mechanism.</li>
+              </ul>
+              <div class="buy-button mt-50 text-center">
+                <a href="./solution.html" class="btn btn-light-blue-outline btn-hover-red-outline"
+                  data-wow-delay=".2s">Solution</a>
+              </div>
+            </div>
+          </div>
+          <div class="about-image-one col-md-6 col-lg-6 col-12 d-none d-md-block" style="background: #3d3c3e;">
+            <img src="img/about/hero-banner-2.png" alt="about">
+          </div>
+        </div>
+
+        <!-- <div class="row pt-50">
+          <div class="about-image-one col-lg-6 col-12">
+            <img src="img/about/ad-dis-blockchain.png" alt="about">
+          </div>
+          <div class="col-lg-6 col-12 mb-50">
+            <div id="accordion-one" role="tablist">
+
+              <div class="single-accordion">
+                <div class="accordion-header-two" role="tab">
+                  <h5><a data-toggle="collapse" href="#collapseOne">Disadvantages of a centralised exchange</a></h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" data-parent="#accordion-one">
+                  <div class="accordion-body">
+                    <ul class="list-long-arrow">
+                      <li>Since centralized exchanges hold their users wallet, they are extremely vulnerable to hacks
+                        and cyber attacks that could result in users losing their coin holdings (MTGox).</li>
+                      <li>Users can be locked out of an exchange or could lose access to their wallets during a software
+                        update as experienced during the cryptocurrency boom in 2017 (Kraken was down for 2 weeks in Jan
+                        2018).</li>
+                      <li>Some centralized exchanges can have opaque operating procedures and can suddenly be closed
+                        (Bitsane) resulting in the loss of assets.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="single-accordion">
+                <div class="accordion-header-two" role="tab">
+                  <h5><a class="collapsed" data-toggle="collapse" href="#collapseTwo">Advantages of decentralized
+                      exchange</a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion-one">
+                  <div class="accordion-body">
+                    <ul class="list-long-arrow">
+                      <li>With decentralization, transaction data is saved on the blockchain.</li>
+                      <li>Asset security: users hold their private keys and thus their assets.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="row pt-90">
+          <div class="col-lg-6 col-12 mb-50">
+            <div id="accordion-two" role="tablist">
+              <div class="single-accordion">
+                <div class="accordion-header-two" role="tab">
+                  <h5><a data-toggle="collapse" href="#collapseThree">Why some decentralized
+                      exchanges
+                      are not actually decentralized</a></h5>
+                </div>
+                <div id="collapseThree" class="collapse show" data-parent="#accordion-two">
+                  <div class="accordion-body">
+                    <ul class="list-long-arrow">
+                      <li>There are 4 important entities of an exchange:
+                        <ul class="list-circle">
+                          <li>Asset exchange.</li>
+                          <li>Capital deposit.</li>
+                          <li>Matching engine.</li>
+                          <li>Orderbook.</li>
+                        </ul>
+                        To build a fully decentralized exchange, these entities must be decentralized. However, it is
+                        not trivial to decentralize these entities due to performance and architecture issues. Most
+                        DEX
+                        only build asset exchange as a decentralized solution (IDEX, Kyber Network, 0x, etc) also
+                        known
+                        as a hybrid exchange. Concurrently, other DEXs announced that they are full decentralized but
+                        are yet to release a fully decentralized version (Binance DEX, Tomochain).
+                      </li>
+                      <li>Profit sharing problem between masternodes that validate exchange transactions. For some
+                        decentralized exchanges, a few masternodes dominate transaction validation and hence also the
+                        fees resulting in the loss of interest in other masternodes.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <div class="accordion-header-two" role="tab">
+                  <h5><a class="collapsed" data-toggle="collapse" href="#collapseFour">How novalex built to become a
+                      full decentralized?</a></h5>
+                </div>
+                <div id="collapseFour" class="collapse" data-parent="#accordion-two">
+                  <div class="accordion-body">
+                    <ul class="list-long-arrow">
+                      <li>We create our own blockchain: NovaChain for matching engine, orderbook and smart contract
+                        for
+                        asset exchange.</li>
+                      <li>We create a new consensus algorithm with new sharing mechanism.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-image-one col-lg-6 col-12">
+            <img src="img/about/ad-dis-blockchain.png" alt="about">
+          </div>
+        </div> -->
+
+      </div>
+    </div><!-- Work Process Section End -->
+
+    <!-- Footer Bottom Section Start -->
+    <div class="footer-bottom section bg-black">
+      <div class="container">
+        <div class="row">
+          <!-- Copyright Text -->
+          <div class="copyright text-center col-12">
+            <p>
+              Copyright &copy; 2019
+              <a href="http://dex.novalex.vn/docs/index.html">Novalex</a> All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom Section End -->
+  </div>
+
+  <!-- JS
+============================================ -->
+
+  <!-- jQuery JS -->
+  <script src="js/vendor/jquery-1.12.0.min.js"></script>
+  <!-- Popper JS -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Plugins JS -->
+  <script src="js/plugins.js"></script>
+  <!-- HoverDir JS -->
+  <!-- <script src="js/jquery.hoverdir.js"></script> -->
+  <!-- Ajax Mail JS -->
+  <!-- <script src="js/ajax-mail.js"></script> -->
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+  <!-- Fade JS -->
+  <script src="js/wow.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
